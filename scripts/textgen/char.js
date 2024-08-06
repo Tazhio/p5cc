@@ -15,7 +15,7 @@ class BoxChar {
   scale = 0;
   mode = CHAR_MODE.WHITE;
   color = COLORS.WHITE;
-  constructor(t, h, i = 60, e = "sans-serif") {
+  constructor(t, h, i = 60, e = "CustomFont") {
     if (
       ((this.char = t),
       (this.mode = h),

@@ -1,9 +1,10 @@
 class BoxText {
   chars = [];
   fontSize = 120;
-  fontFamily = "sans-serif";
+  fontFamily = "CustomFont";
   gutter = 5;
   pendding = 30;
+
   constructor(t, e = {}) {
     if (e) {
       const { fontSize: t, fontFamily: o, gutter: i, pendding: a } = e;
